@@ -1,0 +1,7 @@
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\bin\Debug\Csharp_codebased_Test2.exe.config
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\bin\Debug\Csharp_codebased_Test2.exe
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\bin\Debug\Csharp_codebased_Test2.pdb
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\obj\Debug\Csharp_codebased_Test2.csproj.AssemblyReference.cache
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\obj\Debug\Csharp_codebased_Test2.csproj.CoreCompileInputs.cache
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\obj\Debug\Csharp_codebased_Test2.exe
+C:\Users\bhuiyashk\source\repos\Csharp_codebased_Test2\Csharp_codebased_Test2\obj\Debug\Csharp_codebased_Test2.pdb

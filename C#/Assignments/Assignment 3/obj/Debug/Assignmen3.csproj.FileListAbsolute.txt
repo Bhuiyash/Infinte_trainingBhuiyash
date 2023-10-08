@@ -1,0 +1,7 @@
+D:\Training projects\Assignmen3\Assignmen3\bin\Debug\Assignmen3.exe.config
+D:\Training projects\Assignmen3\Assignmen3\bin\Debug\Assignmen3.exe
+D:\Training projects\Assignmen3\Assignmen3\bin\Debug\Assignmen3.pdb
+D:\Training projects\Assignmen3\Assignmen3\obj\Debug\Assignmen3.csproj.AssemblyReference.cache
+D:\Training projects\Assignmen3\Assignmen3\obj\Debug\Assignmen3.csproj.CoreCompileInputs.cache
+D:\Training projects\Assignmen3\Assignmen3\obj\Debug\Assignmen3.exe
+D:\Training projects\Assignmen3\Assignmen3\obj\Debug\Assignmen3.pdb

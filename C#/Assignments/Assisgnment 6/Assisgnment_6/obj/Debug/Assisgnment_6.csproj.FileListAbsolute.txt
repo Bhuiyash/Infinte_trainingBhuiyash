@@ -1,0 +1,6 @@
+C:\Users\bhuiyashk\source\repos\Assisgnment_6\Assisgnment_6\obj\Debug\Assisgnment_6.csproj.CoreCompileInputs.cache
+C:\Users\bhuiyashk\source\repos\Assisgnment_6\Assisgnment_6\bin\Debug\Assisgnment_6.exe.config
+C:\Users\bhuiyashk\source\repos\Assisgnment_6\Assisgnment_6\bin\Debug\Assisgnment_6.exe
+C:\Users\bhuiyashk\source\repos\Assisgnment_6\Assisgnment_6\bin\Debug\Assisgnment_6.pdb
+C:\Users\bhuiyashk\source\repos\Assisgnment_6\Assisgnment_6\obj\Debug\Assisgnment_6.exe
+C:\Users\bhuiyashk\source\repos\Assisgnment_6\Assisgnment_6\obj\Debug\Assisgnment_6.pdb

@@ -1,0 +1,11 @@
+D:\Training projects\RemotingClient\RemotingClient\bin\Debug\RemotingClient.exe.config
+D:\Training projects\RemotingClient\RemotingClient\bin\Debug\RemotingClient.exe
+D:\Training projects\RemotingClient\RemotingClient\bin\Debug\RemotingClient.pdb
+D:\Training projects\RemotingClient\RemotingClient\bin\Debug\RemotingServer.exe
+D:\Training projects\RemotingClient\RemotingClient\bin\Debug\RemotingServer.pdb
+D:\Training projects\RemotingClient\RemotingClient\bin\Debug\RemotingServer.exe.config
+D:\Training projects\RemotingClient\RemotingClient\obj\Debug\RemotingClient.csproj.AssemblyReference.cache
+D:\Training projects\RemotingClient\RemotingClient\obj\Debug\RemotingClient.csproj.CoreCompileInputs.cache
+D:\Training projects\RemotingClient\RemotingClient\obj\Debug\RemotingClient.csproj.CopyComplete
+D:\Training projects\RemotingClient\RemotingClient\obj\Debug\RemotingClient.exe
+D:\Training projects\RemotingClient\RemotingClient\obj\Debug\RemotingClient.pdb

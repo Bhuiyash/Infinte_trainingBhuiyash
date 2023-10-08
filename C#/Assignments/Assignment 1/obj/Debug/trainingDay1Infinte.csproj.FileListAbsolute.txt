@@ -1,0 +1,7 @@
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\bin\Debug\trainingDay1Infinte.exe.config
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\bin\Debug\trainingDay1Infinte.exe
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\bin\Debug\trainingDay1Infinte.pdb
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\obj\Debug\trainingDay1Infinte.csproj.AssemblyReference.cache
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\obj\Debug\trainingDay1Infinte.csproj.CoreCompileInputs.cache
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\obj\Debug\trainingDay1Infinte.exe
+D:\Training projects\trainingDay1Infinte\trainingDay1Infinte\obj\Debug\trainingDay1Infinte.pdb

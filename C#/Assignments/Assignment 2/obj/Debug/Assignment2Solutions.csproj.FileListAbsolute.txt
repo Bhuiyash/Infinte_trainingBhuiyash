@@ -1,0 +1,7 @@
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\obj\Debug\Assignment2Solutions.csproj.AssemblyReference.cache
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\obj\Debug\Assignment2Solutions.csproj.CoreCompileInputs.cache
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\bin\Debug\Assignment2Solutions.exe.config
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\bin\Debug\Assignment2Solutions.exe
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\bin\Debug\Assignment2Solutions.pdb
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\obj\Debug\Assignment2Solutions.exe
+C:\Users\bhuiyashk\source\repos\Assignment2Solutions\Assignment2Solutions\obj\Debug\Assignment2Solutions.pdb

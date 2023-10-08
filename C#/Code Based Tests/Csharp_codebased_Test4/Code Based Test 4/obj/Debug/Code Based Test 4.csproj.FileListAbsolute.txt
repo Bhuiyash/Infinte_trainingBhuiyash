@@ -1,0 +1,7 @@
+D:\Training projects\Code Based Test 4\Code Based Test 4\bin\Debug\Code Based Test 4.exe.config
+D:\Training projects\Code Based Test 4\Code Based Test 4\bin\Debug\Code Based Test 4.exe
+D:\Training projects\Code Based Test 4\Code Based Test 4\bin\Debug\Code Based Test 4.pdb
+D:\Training projects\Code Based Test 4\Code Based Test 4\obj\Debug\Code Based Test 4.csproj.AssemblyReference.cache
+D:\Training projects\Code Based Test 4\Code Based Test 4\obj\Debug\Code Based Test 4.csproj.CoreCompileInputs.cache
+D:\Training projects\Code Based Test 4\Code Based Test 4\obj\Debug\Code Based Test 4.exe
+D:\Training projects\Code Based Test 4\Code Based Test 4\obj\Debug\Code Based Test 4.pdb

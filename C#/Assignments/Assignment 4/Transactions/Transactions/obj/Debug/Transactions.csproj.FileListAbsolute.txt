@@ -1,0 +1,7 @@
+D:\Training projects\Transactions\Transactions\obj\Debug\Transactions.csproj.AssemblyReference.cache
+D:\Training projects\Transactions\Transactions\obj\Debug\Transactions.csproj.CoreCompileInputs.cache
+D:\Training projects\Transactions\Transactions\bin\Debug\Transactions.exe.config
+D:\Training projects\Transactions\Transactions\bin\Debug\Transactions.exe
+D:\Training projects\Transactions\Transactions\bin\Debug\Transactions.pdb
+D:\Training projects\Transactions\Transactions\obj\Debug\Transactions.exe
+D:\Training projects\Transactions\Transactions\obj\Debug\Transactions.pdb
