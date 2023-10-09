@@ -1,0 +1,7 @@
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\obj\Debug\Case Study.csproj.AssemblyReference.cache
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\obj\Debug\Case Study.csproj.CoreCompileInputs.cache
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\bin\Debug\Case Study.exe.config
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\bin\Debug\Case Study.exe
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\bin\Debug\Case Study.pdb
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\obj\Debug\Case Study.exe
+D:\Bhuiyash Kumar ICS\C#\Case Study\Case Study\Case Study\obj\Debug\Case Study.pdb
