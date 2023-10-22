@@ -1,0 +1,7 @@
+D:\Training projects\LinkingSql\LinkingSql\bin\Debug\LinkingSql.exe.config
+D:\Training projects\LinkingSql\LinkingSql\bin\Debug\LinkingSql.exe
+D:\Training projects\LinkingSql\LinkingSql\bin\Debug\LinkingSql.pdb
+D:\Training projects\LinkingSql\LinkingSql\obj\Debug\LinkingSql.csproj.AssemblyReference.cache
+D:\Training projects\LinkingSql\LinkingSql\obj\Debug\LinkingSql.csproj.CoreCompileInputs.cache
+D:\Training projects\LinkingSql\LinkingSql\obj\Debug\LinkingSql.exe
+D:\Training projects\LinkingSql\LinkingSql\obj\Debug\LinkingSql.pdb
