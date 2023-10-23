@@ -1,0 +1,14 @@
+D:\Training projects\AdoCodeBased\AdoCodeBased\bin\Debug\AdoCodeBased.exe.config
+D:\Training projects\AdoCodeBased\AdoCodeBased\bin\Debug\AdoCodeBased.exe
+D:\Training projects\AdoCodeBased\AdoCodeBased\bin\Debug\AdoCodeBased.pdb
+D:\Training projects\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.csproj.AssemblyReference.cache
+D:\Training projects\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.csproj.CoreCompileInputs.cache
+D:\Training projects\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.exe
+D:\Training projects\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.pdb
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\bin\Debug\AdoCodeBased.exe.config
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\bin\Debug\AdoCodeBased.exe
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\bin\Debug\AdoCodeBased.pdb
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.csproj.AssemblyReference.cache
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.csproj.CoreCompileInputs.cache
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.exe
+D:\Bhuiyash Kumar ICS\SQL\Code Based test\CodeBasedTestSQL_2\question one\AdoCodeBased\AdoCodeBased\obj\Debug\AdoCodeBased.pdb
