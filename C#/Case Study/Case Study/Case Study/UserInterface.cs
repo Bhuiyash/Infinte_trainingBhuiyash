@@ -162,8 +162,7 @@ namespace CaseStudy
 
                 Course course = new Course(cid, cname);
 
-                appengine.Enroll(student, course);
-
+            appengine.InsertEnrollmentIntoDatabase(student, course, DateTime.Now);
                 showStudentScreen();
 
             }
@@ -172,20 +171,19 @@ namespace CaseStudy
 
             {
 
-                Console.WriteLine("List of courses");
+                Console.WriteLine("----------------List of courses-----------");
 
                 appengine.ListofCourses();
+            Console.WriteLine("----------------End of courses-----------");
 
-            }
-            public void showAllStudentsScreen()
+
+        }
+        public void showAllStudentsScreen()
 
             {
 
-                Scenarios.Scenario1();
 
-                Scenarios.Scenario2();
-
-                showAdminScreen();
+            appengine.ListOfStudents();
 
             }
             public void introduceNewCourseScreen()

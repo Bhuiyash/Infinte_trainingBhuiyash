@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppEngine.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="LocalDate.cs" />
     <Compile Include="UserInterface.cs" />
