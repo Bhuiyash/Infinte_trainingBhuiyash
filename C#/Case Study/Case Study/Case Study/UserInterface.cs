@@ -28,7 +28,6 @@ namespace CaseStudy
         public class App : UserInterface
 
         {
-
            AppEngine appengine = new AppEngine();
 
             public void showFirstScreen()
@@ -47,9 +46,17 @@ namespace CaseStudy
                         showStudentScreen(); break;
                     case 2:
                         showAdminScreen(); break;
-                    case 3: break;
+                    case 3:
+                    Console.WriteLine("Exited...");
+                    Console.ReadLine();
+
+                    break;
                     default:
-                        Console.WriteLine("Input is Invalid \n...please enter 1 or 2 or 3"); break;
+                        Console.WriteLine("Input is Invalid \n...please enter 1 or 2 or 3");
+                    showFirstScreen();
+                    
+                    
+                    break;
 
                 }
 
@@ -59,9 +66,9 @@ namespace CaseStudy
 
             {
 
-                Console.WriteLine("Student Screen");
+                Console.WriteLine("-------------Student Screen-------------");
 
-                Console.WriteLine("What do you want to do?\n1.Register details\n2.Show all courses\n3.Exit");
+                Console.WriteLine("What do you want to do?\n1.Register details\n2.Show all courses\n3.Exit \n 4.Go back to main menu");
 
                 Console.Write("Enter your choice(1/2/3) : ");
 
@@ -71,7 +78,9 @@ namespace CaseStudy
                 {
                      case 1:
 
-                        showStudentRegistrationScreen(); break;
+                        showStudentRegistrationScreen();
+                    showStudentScreen();
+                    break;
 
                     case 2:
                         showAllCoursesScreen();
@@ -80,7 +89,14 @@ namespace CaseStudy
 
                         break;
 
-                    case 3: break;
+                    case 3:
+                    Console.WriteLine("press any key to close screen");
+                    Console.ReadLine();
+                    break;
+                case 4:
+                    Console.WriteLine("---------------------------Main Menu----------------------------");
+                    showFirstScreen();
+                    break;
 
                     default:
 
@@ -94,10 +110,10 @@ namespace CaseStudy
 
             {
 
-                Console.WriteLine("Admin Screen");
+                Console.WriteLine("---------Admin Screen----------");
 
-                Console.WriteLine("What do you want to do?\n1.Show all students\n2.Show all courses\n3.Introduce new courses\n4.Exit");
-
+                Console.WriteLine("What do you want to do?\n1.Show all students\n2.Show all courses\n3.Introduce new courses\n4.Exit\n5.Go back to main menu");
+                  
                 Console.Write("Enter your choice(1/2/3/4) : ");
 
                 int choice = int.Parse(Console.ReadLine());
@@ -108,7 +124,9 @@ namespace CaseStudy
 
                     case 1:
 
-                        showAllStudentsScreen(); break;
+                     showAllStudentsScreen();
+                    showAdminScreen(); 
+                    break;
 
                     case 2:
 
@@ -122,11 +140,19 @@ namespace CaseStudy
 
                         introduceNewCourseScreen(); break;
 
-                    case 4: break;
+                    case 4:
+                    Console.WriteLine("press any key to exit the console!");
+                    Console.ReadLine();
+                    break;
+                   case 5:
+                    showFirstScreen();
+                    break;
+
 
                     default:
-
-                        Console.WriteLine("Input Invalid"); break;
+                        Console.WriteLine("Input Invalid");
+                    showFirstScreen();
+                    break;
 
                 }
 
@@ -135,8 +161,9 @@ namespace CaseStudy
             public void showStudentRegistrationScreen()
 
             {
+
        
-                Console.WriteLine("Registration");
+                Console.WriteLine("-------------Registration------------");
 
                 Console.Write("Enter your Name : ");
 
@@ -146,13 +173,17 @@ namespace CaseStudy
 
                 int id = int.Parse(Console.ReadLine());
 
-                Console.Write("Enter your Date of Birth(yyyy-dd-mm) : ");
+                Console.Write("Enter your Date of Birth(yyyy-mm-dd) : ");
 
                 DateTime dob = DateTime.Parse(Console.ReadLine());
 
                 Student student = new Student(id, name, dob);
+            Console.WriteLine("----------------List of courses-----------");
 
-                Console.Write("Enter the Course ID : ");
+            appengine.ListofCourses();
+            Console.WriteLine("----------------End of courses-----------");
+
+            Console.Write("Enter the Course ID : ");
 
                 int cid = int.Parse(Console.ReadLine());
 
@@ -163,7 +194,9 @@ namespace CaseStudy
                 Course course = new Course(cid, cname);
 
             appengine.InsertEnrollmentIntoDatabase(student, course, DateTime.Now);
-                showStudentScreen();
+            Console.WriteLine("-------------------New List of Students--------------------------");
+            appengine.ListOfStudents ();
+            Console.WriteLine("---------------------End of List----------------------------------------");
 
             }
 
@@ -182,13 +215,15 @@ namespace CaseStudy
 
             {
 
-
+            Console.WriteLine("------Students list------");
             appengine.ListOfStudents();
+            Console.WriteLine("------end of list--------");
+            showAdminScreen();
 
             }
             public void introduceNewCourseScreen()
             {
-
+            Console.WriteLine("-----------------------------------------------------------------");
                 Console.Write("Enter the no. of course(s) you want to introduce : ");
 
                 int count = int.Parse(Console.ReadLine());
@@ -197,11 +232,11 @@ namespace CaseStudy
 
                 {
 
-                    Console.Write("Enter the Course ID : ");
+                    Console.Write("Enter the new Course ID : ");
 
                     int cid = Convert.ToInt32(Console.ReadLine());
 
-                    Console.Write("Enter the Course Name : ");
+                    Console.Write("Enter the new Course Name : ");
 
                     string cname = Console.ReadLine();
 
@@ -209,6 +244,7 @@ namespace CaseStudy
 
                     appengine.Introduce(course);
                 }
+            Console.WriteLine("--------------------------------------------------------------------------------------");
                 showAdminScreen();
             }
 

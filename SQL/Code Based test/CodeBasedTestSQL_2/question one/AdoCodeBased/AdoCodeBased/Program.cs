@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-//CodeBasedADO - Bhuiyash Kumar
 namespace AdoCodeBased
 {
     class Program

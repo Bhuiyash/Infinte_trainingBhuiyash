@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient; 
+using System.Data.SqlClient;
 
 namespace Case_Study
 {
-   
     public class AppEngine
     {
         public void Introduce(Course course)
         {
             Console.WriteLine("*****************");
             Console.WriteLine("Course Introduced");
-            string connectionString = "Data Source=ICS-LT-3DWY693;Initial Catalog=CaseStudyProject;" + "Integrated Security=True"; 
+            Console.WriteLine("*****************");
+            string connectionString = "Data Source=ICS-LT-3DWY693;Initial Catalog=CaseStudyProject;" + "Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -24,9 +24,6 @@ namespace Case_Study
                 {
                     cmd.Parameters.AddWithValue("@course_id", course.course_id);
                     cmd.Parameters.AddWithValue("@course_name", course.course_name);
-                  
-
-               
                     cmd.ExecuteNonQuery();
                 }
 
@@ -42,18 +39,17 @@ namespace Case_Study
         public void ListofCourses()
         {
             List<Course> courses = LoadCoursesFromDatabase();
-
             foreach (var course in courses)
             {
                 Info.DisplayTwo(course);
             }
         }
 
-        public  List<Course> LoadCoursesFromDatabase()
+        public List<Course> LoadCoursesFromDatabase()
         {
             List<Course> courses = new List<Course>();
 
-            string connectionString = "Data Source=ICS-LT-3DWY693;Initial Catalog=CaseStudyProject;" + "Integrated Security=True"; 
+            string connectionString = "Data Source=ICS-LT-3DWY693;Initial Catalog=CaseStudyProject;" + "Integrated Security=True";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -118,39 +114,41 @@ namespace Case_Study
                     }
                 }
             }
-            catch(SqlException e)
+            catch (SqlException e)
             {
                 Console.WriteLine(e.Message);
             }
-          
+
             return students;
         }
 
 
         public void InsertEnrollmentIntoDatabase(Student student, Course course, DateTime enrollmentDate)
         {
-            string connectionString = "Data Source=ICS-LT-3DWY693;Initial Catalog=CaseStudyProject;" + "Integrated Security=True"; // Replace with your actual database connection string
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            try
             {
-                    connection.Open();
-                DateTime dateTime = DateTime.Now;
-                Console.WriteLine("Student enrollment in course");
-                Console.WriteLine($"Student ID: {student.studentId}\nStudent Name: {student.studentName}" +
-                    $"\nStudent Date Of Birth: {student.studentDob}" +
-                    $"\nCourse ID: {course.course_id}\nCourse Name: {course.course_name}" +
-                    $"\nEnrollment Date: {dateTime}");
-                //student enrollment
-                string studentInsertQuery = "Insert into Students values (@student_id,@student_name,@student_dob)";
-                using (SqlCommand cmd = new SqlCommand(studentInsertQuery, connection))
-                {
-                    cmd.Parameters.AddWithValue("@student_id", student.studentId);
-                    cmd.Parameters.AddWithValue("@student_name", student.studentName);
-                    cmd.Parameters.AddWithValue("@student_dob", student.studentDob);
-                    cmd.ExecuteNonQuery();
-                }
+                string connectionString = "Data Source=ICS-LT-3DWY693;Initial Catalog=CaseStudyProject;" + "Integrated Security=True"; // Replace with your actual database connection string
 
-                //enrollments insertion
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    DateTime dateTime = DateTime.Now;
+                    Console.WriteLine("Student enrollment in course");
+                    Console.WriteLine($"Student ID: {student.studentId}\nStudent Name: {student.studentName}" +
+                        $"\nStudent Date Of Birth: {student.studentDob}" +
+                        $"\nCourse ID: {course.course_id}\nCourse Name: {course.course_name}" +
+                        $"\nEnrollment Date: {dateTime}");
+                    //student enrollment
+                    string studentInsertQuery = "Insert into Students values (@student_id,@student_name,@student_dob)";
+                    using (SqlCommand cmd = new SqlCommand(studentInsertQuery, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@student_id", student.studentId);
+                        cmd.Parameters.AddWithValue("@student_name", student.studentName);
+                        cmd.Parameters.AddWithValue("@student_dob", student.studentDob);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    //enrollments insertion
                     string insertQuery = "INSERT INTO Enrollments (student_id, course_id, enrollment_date) " +
                                         "VALUES (@StudentId, @CourseId, @EnrollmentDate)";
 
@@ -159,22 +157,29 @@ namespace Case_Study
                         cmd.Parameters.AddWithValue("@StudentId", student.studentId);
                         cmd.Parameters.AddWithValue("@CourseId", course.course_id);
                         cmd.Parameters.AddWithValue("@EnrollmentDate", enrollmentDate);
-                    int rowsAffected = cmd.ExecuteNonQuery();
-                    if (rowsAffected > 0)
-                    {
-                        Console.WriteLine("-----Enrollment successful :)-----");
-
-                        Console.WriteLine("The new enrollment is as follows: ");
- }
-                    else
-                    {
-                        Console.WriteLine("Enrollment failed. :(");
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            Console.WriteLine("-----Enrollment successful :)-----");
+                            Console.WriteLine($"Student {student.studentName} has been enrolled in the system with course id {course.course_id}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Enrollment failed. :(");
+                        }
                     }
                 }
-                }
+
+            }
+            catch(SqlException e)
+            {
+                Console.WriteLine(e.Message);
             }
 
-        
+
+
+
+        }
     }
-    }
+}
 
